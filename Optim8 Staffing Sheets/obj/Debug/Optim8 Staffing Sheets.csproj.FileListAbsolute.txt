@@ -1,0 +1,149 @@
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe.config
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\WebDriver.dll
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.dll
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\WebDriver.xml
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.xml
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csprojResolveAssemblyReference.cache
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Properties.Resources.resources
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.Cache
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe.config
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\WebDriver.dll
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.dll
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\WebDriver.xml
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.xml
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Properties.Resources.resources
+C:\Users\Thomas\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.Cache
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe.config
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\bin\Debug\WebDriver.dll
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.dll
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\bin\Debug\WebDriver.xml
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.xml
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csprojResolveAssemblyReference.cache
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Properties.Resources.resources
+C:\Users\thoma_000\OneDrive\Fall 2016\Csharp\Optim8 Staffing Sheets 2.0 - Copy\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.Cache
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe.config
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\bin\Debug\WebDriver.dll
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.dll
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\bin\Debug\WebDriver.xml
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.xml
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Properties.Resources.resources
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.cache
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CoreCompileInputs.cache
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CopyComplete
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\OneDrive - Southern Illinois University Edwardsville\Fall 2016 2\Csharp\Optim8 Staffing Sheets 2.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe.config
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\bin\Debug\WebDriver.dll
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.dll
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\bin\Debug\WebDriver.xml
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.xml
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csprojAssemblyReference.cache
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Properties.Resources.resources
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.cache
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CoreCompileInputs.cache
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CopyComplete
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets 3.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe.config
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\bin\Debug\WebDriver.dll
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.dll
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\bin\Debug\WebDriver.xml
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.xml
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csprojAssemblyReference.cache
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Properties.Resources.resources
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.cache
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CoreCompileInputs.cache
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CopyComplete
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\OneDrive\Optim8 Staffing Sheets PS 1.0\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe.config
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\bin\Debug\WebDriver.dll
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.dll
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\bin\Debug\WebDriver.xml
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.xml
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csprojAssemblyReference.cache
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.pleasestandby.resources
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Properties.Resources.resources
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.cache
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CoreCompileInputs.cache
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CopyComplete
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\OneDrive\o8ss\Optim8 Staffing Sheets PS 1.1\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe.config
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\bin\Debug\WebDriver.dll
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.dll
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\bin\Debug\WebDriver.xml
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csprojAssemblyReference.cache
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.pleasestandby.resources
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Properties.Resources.resources
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.cache
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CoreCompileInputs.cache
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CopyComplete
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\OneDrive\o8ss\Repos\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.xml
+C:\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.AssemblyReference.cache
+C:\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.pleasestandby.resources
+C:\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.cache
+C:\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe.config
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\bin\Debug\WebDriver.dll
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.dll
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.AssemblyReference.cache
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.SuggestedBindingRedirects.cache
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.pleasestandby.resources
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Properties.Resources.resources
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.cache
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CoreCompileInputs.cache
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CopyComplete
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\Source\Repos\trasbd\o8ss\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb

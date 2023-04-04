@@ -1,0 +1,17 @@
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\bin\Debug\netcoreapp3.1\certs.exe
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\obj\Debug\netcoreapp3.1\certs.csprojAssemblyReference.cache
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\obj\Debug\netcoreapp3.1\certs.AssemblyInfoInputs.cache
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\obj\Debug\netcoreapp3.1\certs.AssemblyInfo.cs
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\bin\Debug\netcoreapp3.1\certs.deps.json
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\bin\Debug\netcoreapp3.1\certs.runtimeconfig.json
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\bin\Debug\netcoreapp3.1\certs.runtimeconfig.dev.json
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\bin\Debug\netcoreapp3.1\certs.dll
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\bin\Debug\netcoreapp3.1\certs.pdb
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\obj\Debug\netcoreapp3.1\certs.csproj.CopyComplete
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\obj\Debug\netcoreapp3.1\certs.dll
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\obj\Debug\netcoreapp3.1\certs.pdb
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\obj\Debug\netcoreapp3.1\certs.genruntimeconfig.cache
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
+C:\Users\thoma\OneDrive\o8ss\Repos\certs\certs\obj\Debug\netcoreapp3.1\certs.csproj.CoreCompileInputs.cache
