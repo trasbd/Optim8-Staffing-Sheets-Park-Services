@@ -79,6 +79,10 @@ namespace Optim8_Staffing_Sheets
                         //clicks login link to display login block
                         loginLink.Click();
 
+                        //Added delay for box to load
+                        // Might just be my machine
+                        Thread.Sleep(500);
+
                         //Finds text boxes Company, User ID, and Password
                         IWebElement companyTxt = driver.FindElement(By.Id("txtCompany"));
                         IWebElement idTxt = driver.FindElement(By.Id("txtuserid"));
@@ -89,10 +93,12 @@ namespace Optim8_Staffing_Sheets
                         idTxt.SendKeys(txtID.Text);
                         passTxt.SendKeys(txtPass.Text);
 
+
                         //Finds login button
                         IWebElement login = driver.FindElement(By.Id("btnlogin1"));
                         //click login button
                         login.Click();
+
                         //makes form no longer on top of everything
                         this.TopMost = false;
                         //if the url doesn't contain "/tm" then it didnt get redirected after logging in

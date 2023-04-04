@@ -205,7 +205,6 @@ C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\bin\Release\Opti
 C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\bin\Release\Optim8 Staffing Sheets.pdb
 C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\bin\Release\WebDriver.dll
 C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\bin\Release\WebDriver.Support.dll
-C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\obj\Release\Optim8_Staffing_Sheets.pleasestandby.resources
 C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\obj\Release\Optim8_Staffing_Sheets.Form1.resources
 C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\obj\Release\Optim8_Staffing_Sheets.Properties.Resources.resources
 C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\obj\Release\Optim8 Staffing Sheets.csproj.GenerateResource.cache

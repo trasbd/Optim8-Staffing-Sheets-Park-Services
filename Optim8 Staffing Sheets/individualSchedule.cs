@@ -29,7 +29,8 @@ namespace Optim8_Staffing_Sheets
 
                 if (isInt(line.Substring(index + lenght+1, 1)))
                 {
-                    m_ride = line.Substring(index, lenght);
+                    //m_ride = line.Substring(index, lenght);
+                     m_ride = line.Substring(0, index + lenght);
                 }
                 else
                 {
