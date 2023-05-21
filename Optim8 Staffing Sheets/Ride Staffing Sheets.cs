@@ -356,9 +356,10 @@ namespace Optim8_Staffing_Sheets
                         }
 
                         List<String> rideSortOrderReversed = new List<String> {
-                            "PS Area E / Catering ",
-                            "Women's Restrooms ",
-                            "Men's Restrooms ",
+                            "2800 - Park Services Supervisors ",
+                            "2560 - PS Area E / Catering ",
+                            "2570 - Women's Restrooms ",
+                            "2580 - Men's Restrooms ",
                             "PS Area 4 ",
                             "PS Area 3 ",
                             "PS Area 2 ",
