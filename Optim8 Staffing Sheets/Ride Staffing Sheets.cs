@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using Microsoft.Office.Interop.Excel;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System;
@@ -51,7 +52,7 @@ namespace Optim8_Staffing_Sheets
             else
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Application.DoEvents();
+                System.Windows.Forms.Application.DoEvents();
                 try
                 {
                     //if the driver isnt already open
@@ -725,6 +726,11 @@ namespace Optim8_Staffing_Sheets
                                 xlWorkSheet.Cells[start_row, col].Font.Bold = true;
                             }
 
+                            if(person.m_yellowTag && highlight15.Checked)
+                            {
+                                xlWorkSheet.Cells[start_row, col].Interior.ColorIndex = 6; //yellow
+                            }
+
 
                             string colC;
                             switch (col)
@@ -828,7 +834,7 @@ namespace Optim8_Staffing_Sheets
 
         private void btnAbout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Last Updated: 4/4/2023\nContact: Thomas Robert\nEmail: tRobert@sftp.com");
+            MessageBox.Show("Last Updated: 5/21/2023\n\nContact: Thomas Robert\nEmail: tRobert@sftp.com");
         }
     }
 }

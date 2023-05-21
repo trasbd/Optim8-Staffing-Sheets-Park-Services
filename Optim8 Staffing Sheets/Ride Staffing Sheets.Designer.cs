@@ -41,6 +41,7 @@
             this.checkBoxSortRR = new System.Windows.Forms.CheckBox();
             this.btnVersionChk = new System.Windows.Forms.Button();
             this.btnAbout = new System.Windows.Forms.Button();
+            this.highlight15 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label3
@@ -101,7 +102,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(320, 79);
+            this.button1.Location = new System.Drawing.Point(329, 101);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
@@ -161,12 +162,23 @@
             this.btnAbout.UseVisualStyleBackColor = true;
             this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
+            // highlight15
+            // 
+            this.highlight15.AutoSize = true;
+            this.highlight15.Location = new System.Drawing.Point(281, 74);
+            this.highlight15.Name = "highlight15";
+            this.highlight15.Size = new System.Drawing.Size(179, 20);
+            this.highlight15.TabIndex = 34;
+            this.highlight15.Text = "Highlight 14-15 Year Olds";
+            this.highlight15.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(612, 196);
+            this.Controls.Add(this.highlight15);
             this.Controls.Add(this.btnAbout);
             this.Controls.Add(this.btnVersionChk);
             this.Controls.Add(this.checkBoxSortRR);
@@ -204,6 +216,7 @@
         private System.Windows.Forms.CheckBox checkBoxSortRR;
         private System.Windows.Forms.Button btnVersionChk;
         private System.Windows.Forms.Button btnAbout;
+        private System.Windows.Forms.CheckBox highlight15;
     }
 }
 
