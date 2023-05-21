@@ -14,6 +14,7 @@ namespace Optim8_Staffing_Sheets
         public DateTime m_end;
         public string m_name = "";
         //public string m_Fname = "";
+        public bool m_yellowTag = false;
 
 
         public individualSchedule(string line)
@@ -104,9 +105,10 @@ namespace Optim8_Staffing_Sheets
                     
                     index += 9;
                     m_name = line.Substring(index, line.Length - index);
-                    if(m_ride.Contains("Restroom"))
+                    if(m_name.Contains("(14-15)"))
                     {
-                        //m_name = "R - " + m_name;
+                        m_yellowTag = true;
+                        m_name = m_name.Replace("(14-15)", "");
                     }
                     //Console.Write(m_name);
                 }

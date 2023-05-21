@@ -199,7 +199,7 @@ namespace Optim8_Staffing_Sheets
                     rawTable = rawTable.Replace("Ride Operations ", "");
                     rawTable = rawTable.Replace("Arcade Att ", "");
                     rawTable = rawTable.Replace("(16-17)", "");
-                    rawTable = rawTable.Replace("(14-15)", "");
+                    ///rawTable = rawTable.Replace("(14-15)", "");
 
                     //Writes table to file so it can be read from as a string
                     //File is stored in program directory
@@ -221,7 +221,7 @@ namespace Optim8_Staffing_Sheets
                     if ((line = file.ReadLine()) != null && line.Contains("No record found."))
                     {
                         //Displays message box
-                        MessageBox.Show("No schedules have been posted on " + dateWanted.ToShortDateString());
+                        MessageBox.Show("No schedules have been exsist on " + dateWanted.ToShortDateString());
                         //Close file stream
                         file.Close();
                         //Deletes table file
@@ -717,12 +717,13 @@ namespace Optim8_Staffing_Sheets
                         foreach (var person in ride.m_shift[i].m_crew)
                         {
                             
-                            xlWorkSheet.Cells[start_row, col] = person.m_start.ToShortTimeString() + "-" + person.m_end.ToShortTimeString() + "  " + person.m_name;
+                            xlWorkSheet.Cells[start_row, col] = person.m_start.ToShortTimeString() + "-" + person.m_end.ToShortTimeString() + "  " + person.m_name + (person.m_yellowTag?" (14-15)":"");
                             if (person.m_name.Contains("R - "))
                             {
                                 //xlWorkSheet.Range[start_row, col].get_Characters(0, 4).Font.Bold = true;
                                 xlWorkSheet.Cells[start_row, col].Font.Bold = true;
                             }
+
 
                             string colC;
                             switch (col)
