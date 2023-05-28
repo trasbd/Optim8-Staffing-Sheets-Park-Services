@@ -124,6 +124,9 @@ namespace Optim8_Staffing_Sheets
 
                     //Redirect Browser to the scheduling webpage
                     driver.Navigate().GoToUrl("http://sixflags.team/tm/tm/schedule");
+                    driver.Navigate().Refresh();
+
+                    Thread.Sleep(500);
 
                     SelectElement divisionDropDown = new SelectElement(driver.FindElement(By.Id("ddd1")));
                     divisionDropDown.SelectByText("Operations");
