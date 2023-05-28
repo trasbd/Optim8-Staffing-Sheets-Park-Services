@@ -42,6 +42,7 @@
             this.btnVersionChk = new System.Windows.Forms.Button();
             this.btnAbout = new System.Windows.Forms.Button();
             this.highlight15 = new System.Windows.Forms.CheckBox();
+            this.trainingChkBox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label3
@@ -102,7 +103,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(329, 101);
+            this.button1.Location = new System.Drawing.Point(329, 123);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
@@ -133,7 +134,7 @@
             this.checkBoxSortRR.AutoSize = true;
             this.checkBoxSortRR.Checked = true;
             this.checkBoxSortRR.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxSortRR.Location = new System.Drawing.Point(281, 51);
+            this.checkBoxSortRR.Location = new System.Drawing.Point(281, 44);
             this.checkBoxSortRR.Name = "checkBoxSortRR";
             this.checkBoxSortRR.Size = new System.Drawing.Size(185, 20);
             this.checkBoxSortRR.TabIndex = 31;
@@ -142,7 +143,7 @@
             // 
             // btnVersionChk
             // 
-            this.btnVersionChk.Location = new System.Drawing.Point(13, 155);
+            this.btnVersionChk.Location = new System.Drawing.Point(13, 189);
             this.btnVersionChk.Margin = new System.Windows.Forms.Padding(4);
             this.btnVersionChk.Name = "btnVersionChk";
             this.btnVersionChk.Size = new System.Drawing.Size(293, 28);
@@ -153,7 +154,7 @@
             // 
             // btnAbout
             // 
-            this.btnAbout.Location = new System.Drawing.Point(499, 155);
+            this.btnAbout.Location = new System.Drawing.Point(499, 189);
             this.btnAbout.Margin = new System.Windows.Forms.Padding(4);
             this.btnAbout.Name = "btnAbout";
             this.btnAbout.Size = new System.Drawing.Size(100, 28);
@@ -165,19 +166,32 @@
             // highlight15
             // 
             this.highlight15.AutoSize = true;
-            this.highlight15.Location = new System.Drawing.Point(281, 74);
+            this.highlight15.Checked = true;
+            this.highlight15.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.highlight15.Location = new System.Drawing.Point(281, 96);
             this.highlight15.Name = "highlight15";
             this.highlight15.Size = new System.Drawing.Size(179, 20);
             this.highlight15.TabIndex = 34;
             this.highlight15.Text = "Highlight 14-15 Year Olds";
             this.highlight15.UseVisualStyleBackColor = true;
             // 
+            // trainingChkBox
+            // 
+            this.trainingChkBox.AutoSize = true;
+            this.trainingChkBox.Location = new System.Drawing.Point(281, 70);
+            this.trainingChkBox.Name = "trainingChkBox";
+            this.trainingChkBox.Size = new System.Drawing.Size(124, 20);
+            this.trainingChkBox.TabIndex = 35;
+            this.trainingChkBox.Text = "Include Training";
+            this.trainingChkBox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(612, 196);
+            this.ClientSize = new System.Drawing.Size(612, 230);
+            this.Controls.Add(this.trainingChkBox);
             this.Controls.Add(this.highlight15);
             this.Controls.Add(this.btnAbout);
             this.Controls.Add(this.btnVersionChk);
@@ -217,6 +231,7 @@
         private System.Windows.Forms.Button btnVersionChk;
         private System.Windows.Forms.Button btnAbout;
         private System.Windows.Forms.CheckBox highlight15;
+        private System.Windows.Forms.CheckBox trainingChkBox;
     }
 }
 

@@ -36,7 +36,7 @@ namespace Optim8_Staffing_Sheets
 
 
             bool sortRestrooms = checkBoxSortRR.Checked;
-            bool getTraining = false;
+            bool getTraining = trainingChkBox.Checked;
 
 
             //Form waiting = new pleasestandby();
@@ -133,6 +133,9 @@ namespace Optim8_Staffing_Sheets
 
                     departmentDropDown.SelectByText("Park Services");
 
+                    SelectElement locationDropDown = new SelectElement(driver.FindElement(By.Id("ddl1")));
+                    locationDropDown.SelectByText("");
+
                     //Sets the department to 'blank' because some areas have attractions and rides
                     //departmentDropDown.SelectByIndex(0);
 
@@ -196,17 +199,33 @@ namespace Optim8_Staffing_Sheets
                     divisionDropDown.SelectByText("Administration");
                     departmentDropDown.SelectByText("Training");
 
-                    Thread.Sleep(500);
+                        for (int i = 0; i < 3; i++)
+                        {
+                            switch (i)
+                            {
+                                case 0:
+                                    locationDropDown.SelectByText("9805 - Park Services Training");
+                                    break;
+                                case 1:
+                                    locationDropDown.SelectByText("9806 - Park Services - OJT");
+                                    break;
+                                case 2:
+                                    locationDropDown.SelectByText("9807 - Park Services - Mgmt");
+                                    break;
+                            }
+
+                            Thread.Sleep(500);
 
 
 
-                    //Clicks Go to load new table
-                    goBtn.Click();
+                            //Clicks Go to load new table
+                            goBtn.Click();
 
-                    Thread.Sleep(500);
+                            Thread.Sleep(500);
 
-                    //Grabs new table
-                    rawTable += scheduleTable.Text;
+                            //Grabs new table
+                            rawTable += scheduleTable.Text;
+                        }
                 }
 
 
