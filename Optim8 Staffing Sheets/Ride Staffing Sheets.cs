@@ -282,18 +282,21 @@ namespace Optim8_Staffing_Sheets
                             List<string> psArea2 = new List<string>();
                             List<string> psArea3 = new List<string>();
                             List<string> psArea4 = new List<string>();
+                            List<string> psAreaH = new List<string>();
 
                             List<List<string>> areaCerts = new List<List<string>>();
                             areaCerts.Add(psArea1);
                             areaCerts.Add(psArea2);
                             areaCerts.Add(psArea3);
                             areaCerts.Add(psArea4);
+                            areaCerts.Add(psAreaH);
 
 
                             areaCertNames.Add("PS - Area 1");
                             areaCertNames.Add("PS - Area 2");
                             areaCertNames.Add("PS - Area 3");
                             areaCertNames.Add("PS - Area 4");
+                            areaCertNames.Add("PS - Harbor");
 
                             //IWebDriver driver = new ChromeDriver();
 
@@ -315,7 +318,7 @@ namespace Optim8_Staffing_Sheets
                             SelectElement departmentDropDownCert = new SelectElement(driver.FindElement(By.Id("ddd2")));
                             departmentDropDownCert.SelectByText("Park Services");
 
-                            for (int i = 0; i < 4; i++)
+                            for (int i = 0; i < 5; i++)
                             {
 
                                 SelectElement certName = new SelectElement(driver.FindElement(By.Id("ddcert")));
@@ -358,11 +361,16 @@ namespace Optim8_Staffing_Sheets
                             {
                                 if(worker.m_ride.Contains("Restroom"))
                                 {
-                                    for (int i = 1; i <= 4; i++)
+                                    for (int i = 1; i <= 5; i++)
                                     {
-                                        if (areaCerts[i-1].Contains(worker.m_name))
+                                        if (areaCerts[i-1].Contains(worker.m_name) && (i <=4))
                                         {
                                             worker.m_ride = "25" + i + "0 - PS Area " + i + " ";
+                                            worker.m_name = "R - " + worker.m_name;
+                                        }
+                                        else if (areaCerts[i - 1].Contains(worker.m_name) && i ==5)
+                                        {
+                                            worker.m_ride = "2670 - Harbor Services ";
                                             worker.m_name = "R - " + worker.m_name;
                                         }
                                     }
