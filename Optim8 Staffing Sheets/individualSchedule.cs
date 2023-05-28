@@ -37,7 +37,7 @@ namespace Optim8_Staffing_Sheets
                 {
                     
 
-                    m_ride = line.Substring(index, lenght + 2);
+                    m_ride = line.Substring(0, index + lenght + 2);
                     lenght += 1;
                 }
 

@@ -36,6 +36,7 @@ namespace Optim8_Staffing_Sheets
 
 
             bool sortRestrooms = checkBoxSortRR.Checked;
+            bool getTraining = false;
 
 
             //Form waiting = new pleasestandby();
@@ -64,7 +65,7 @@ namespace Optim8_Staffing_Sheets
 
                         //Disables images so it loads faster
                         options.AddUserProfilePreference("profile.default_content_setting_values.images", 2);
-                        
+
                         //hidden chrome option
                         options.AddArgument("headless");
 
@@ -118,15 +119,18 @@ namespace Optim8_Staffing_Sheets
 
                     //After sucessful login
 
-                    
+
 
 
                     //Redirect Browser to the scheduling webpage
                     driver.Navigate().GoToUrl("http://sixflags.team/tm/tm/schedule");
 
+                    SelectElement divisionDropDown = new SelectElement(driver.FindElement(By.Id("ddd1")));
+                    divisionDropDown.SelectByText("Operations");
+
                     //finds the department Drop Down element
                     SelectElement departmentDropDown = new SelectElement(driver.FindElement(By.Id("ddd2")));
-                    
+
                     departmentDropDown.SelectByText("Park Services");
 
                     //Sets the department to 'blank' because some areas have attractions and rides
@@ -185,17 +189,29 @@ namespace Optim8_Staffing_Sheets
 
                     }
 
-                   
-                    ///*
-                    //while (!rawTable.Contains(dateWanted.ToShortDateString()) || !rawTable.Contains("Department Location Position Seq. Time"))
-                    //{
-                    //    rawTable = scheduleTable.Text;
-                    //    Console.WriteLine(rawTable);
-                    //}
-                    //
+                    // Gets Training ACs
+                    if(getTraining)
+                    { 
+                    divisionDropDown = new SelectElement(driver.FindElement(By.Id("ddd1")));
+                    divisionDropDown.SelectByText("Administration");
+                    departmentDropDown.SelectByText("Training");
+
+                    Thread.Sleep(500);
 
 
-                    
+
+                    //Clicks Go to load new table
+                    goBtn.Click();
+
+                    Thread.Sleep(500);
+
+                    //Grabs new table
+                    rawTable += scheduleTable.Text;
+                }
+
+
+
+
                     //Removes unnessicary strings
                     rawTable = rawTable.Replace("Ride Operations ", "");
                     rawTable = rawTable.Replace("Arcade Att ", "");
@@ -346,7 +362,7 @@ namespace Optim8_Staffing_Sheets
                                     {
                                         if (areaCerts[i-1].Contains(worker.m_name))
                                         {
-                                            worker.m_ride = "PS Area "+i + " ";
+                                            worker.m_ride = "25" + i + "0 - PS Area " + i + " ";
                                             worker.m_name = "R - " + worker.m_name;
                                         }
                                     }
@@ -357,14 +373,22 @@ namespace Optim8_Staffing_Sheets
                         }
 
                         List<String> rideSortOrderReversed = new List<String> {
+                            "2590 - Waste/Trash Removal ",
+                            "2550 - Washdown ",
+                            "2910 - Janitorial ",
+                            "9807 - Park Services - Mgmt ",
+                            "9806 - Park Services - OJT ",
+                            "9805 - Park Services Training ",
+                            "2640 - PS Special Events ",
                             "2800 - Park Services Supervisors ",
                             "2560 - PS Area E / Catering ",
                             "2570 - Women's Restrooms ",
                             "2580 - Men's Restrooms ",
-                            "PS Area 4 ",
-                            "PS Area 3 ",
-                            "PS Area 2 ",
-                            "PS Area 1 ",
+                            "2670 - Harbor Services ",
+                            "2540 - PS Area 4 ",
+                            "2530 - PS Area 3 ",
+                            "2520 - PS Area 2 ",
+                            "2510 - PS Area 1 ",
                             ""
                         };
 
@@ -409,8 +433,21 @@ namespace Optim8_Staffing_Sheets
 
                         }
 
-                        
 
+                        //************************
+                        //**REMOVING EMPTY RIDES**
+                        //************************
+                        //empty rides are sometimes created from junk in rawTable
+                        List<int> rideToRemove = new List<int>();
+                        for (int i = area.Count - 1; i >= 0; i--)
+                        {
+                            if (area.ElementAt(i).m_name.Equals(""))
+                                rideToRemove.Add(i);
+                        }
+                        foreach (var index in rideToRemove)
+                        {
+                            area.RemoveAt(index);
+                        }
 
 
                         //*************************************************
@@ -483,20 +520,7 @@ namespace Optim8_Staffing_Sheets
                             }
                         }
 
-                        //************************
-                        //**REMOVING EMPTY RIDES**
-                        //************************
-                        //empty rides are sometimes created from junk in rawTable
-                        List<int> rideToRemove = new List<int>();
-                        for (int i = area.Count - 1; i >= 0; i--)
-                        {
-                            if (area.ElementAt(i).m_name.Equals(""))
-                                rideToRemove.Add(i);
-                        }
-                        foreach (var index in rideToRemove)
-                        {
-                            area.RemoveAt(index);
-                        }
+                        
 
                         //Counting list used in each ride
                         foreach (var ride in area)
