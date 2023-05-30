@@ -873,15 +873,14 @@ namespace Optim8_Staffing_Sheets
 
         private void btnVersionChk_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Installing ChromeDriver");
-
+            //Console.WriteLine("Installing ChromeDriver");
             var chromeDriverInstaller = new ChromeDriverInstaller();
 
             // not necessary, but added for logging purposes
             var chromeVersion = chromeDriverInstaller.GetChromeVersion();
             MessageBox.Show($"Chrome version {chromeVersion.Result} detected");
             //Console.WriteLine($"Chrome version {chromeVersion} detected");
-
+            
             chromeDriverInstaller.Install(true);
             //MessageBox.Show("ChromeDriver installed");
         }
