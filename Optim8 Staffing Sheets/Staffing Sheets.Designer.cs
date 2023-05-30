@@ -43,6 +43,7 @@
             this.btnAbout = new System.Windows.Forms.Button();
             this.highlight15 = new System.Windows.Forms.CheckBox();
             this.trainingChkBox = new System.Windows.Forms.CheckBox();
+            this.callinsBox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label3
@@ -103,7 +104,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(329, 123);
+            this.button1.Location = new System.Drawing.Point(329, 149);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
@@ -168,7 +169,7 @@
             this.highlight15.AutoSize = true;
             this.highlight15.Checked = true;
             this.highlight15.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.highlight15.Location = new System.Drawing.Point(281, 96);
+            this.highlight15.Location = new System.Drawing.Point(281, 122);
             this.highlight15.Name = "highlight15";
             this.highlight15.Size = new System.Drawing.Size(179, 20);
             this.highlight15.TabIndex = 34;
@@ -185,12 +186,25 @@
             this.trainingChkBox.Text = "Include Training";
             this.trainingChkBox.UseVisualStyleBackColor = true;
             // 
+            // callinsBox
+            // 
+            this.callinsBox.AutoSize = true;
+            this.callinsBox.Checked = true;
+            this.callinsBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.callinsBox.Location = new System.Drawing.Point(281, 96);
+            this.callinsBox.Name = "callinsBox";
+            this.callinsBox.Size = new System.Drawing.Size(119, 20);
+            this.callinsBox.TabIndex = 36;
+            this.callinsBox.Text = "Include Call-Ins";
+            this.callinsBox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(612, 230);
+            this.Controls.Add(this.callinsBox);
             this.Controls.Add(this.trainingChkBox);
             this.Controls.Add(this.highlight15);
             this.Controls.Add(this.btnAbout);
@@ -208,7 +222,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Staffing Sheets";
+            this.Text = "Park Services Staffing Sheets";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -232,6 +246,7 @@
         private System.Windows.Forms.Button btnAbout;
         private System.Windows.Forms.CheckBox highlight15;
         private System.Windows.Forms.CheckBox trainingChkBox;
+        private System.Windows.Forms.CheckBox callinsBox;
     }
 }
 

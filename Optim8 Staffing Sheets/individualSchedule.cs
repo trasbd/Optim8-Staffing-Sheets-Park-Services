@@ -15,6 +15,7 @@ namespace Optim8_Staffing_Sheets
         public string m_name = "";
         //public string m_Fname = "";
         public bool m_yellowTag = false;
+        public bool m_callin = false;
 
 
         public individualSchedule(string line)

@@ -18,33 +18,19 @@ namespace Optim8_Staffing_Sheets
         public IWebDriver driver;
         public int sheetsMade = 0;
         public string appDataFolder = Directory.GetCurrentDirectory();
-        //public string appDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Ride Staffing Sheets";
         public Form1()
         {
             InitializeComponent();
-            
-            
         }
 
 
         private void button1_Click(object sender, EventArgs e)
         {
             //Variables
-            //int areaNumber = cbArea.SelectedIndex+1;
             DateTime dateWanted = dtpDate.Value;
             double shiftStartTimeAlloance = 1.01; //In hours
-
-
             bool sortRestrooms = checkBoxSortRR.Checked;
             bool getTraining = trainingChkBox.Checked;
-
-
-            //Form waiting = new pleasestandby();
-
-            //Thread plswait = new Thread(() => new pleasestandby().ShowDialog());
-                
-             //plswait.Start();
-
 
             if (txtCompany.Text.Equals("") || txtID.Text.Equals("") || txtPass.Text.Equals(""))
             {
@@ -196,11 +182,11 @@ namespace Optim8_Staffing_Sheets
                     }
 
                     // Gets Training ACs
-                    if(getTraining)
-                    { 
-                    divisionDropDown = new SelectElement(driver.FindElement(By.Id("ddd1")));
-                    divisionDropDown.SelectByText("Administration");
-                    departmentDropDown.SelectByText("Training");
+                    if (getTraining)
+                    {
+                        divisionDropDown = new SelectElement(driver.FindElement(By.Id("ddd1")));
+                        divisionDropDown.SelectByText("Administration");
+                        departmentDropDown.SelectByText("Training");
 
                         for (int i = 0; i < 3; i++)
                         {
@@ -229,7 +215,7 @@ namespace Optim8_Staffing_Sheets
                             //Grabs new table
                             rawTable += scheduleTable.Text;
                         }
-                }
+                    }
 
 
 
@@ -268,7 +254,7 @@ namespace Optim8_Staffing_Sheets
                     }
                     else
                     {
-                        
+
 
                         //*****************************************************************************
                         //**When referencing 'everyone' assume everyone within area and date selected**
@@ -293,7 +279,7 @@ namespace Optim8_Staffing_Sheets
                         //Deletes table file
                         File.Delete(appDataFolder + "\\rawTable.dat");
 
-                        if(sortRestrooms)
+                        if (sortRestrooms)
                         {
                             //*************************************************
                             //**Getting the Certs to sort Restrooms into Areas**
@@ -363,8 +349,6 @@ namespace Optim8_Staffing_Sheets
 
                                 System.Collections.ObjectModel.ReadOnlyCollection<IWebElement> names = driver.FindElements(By.TagName("tr"));
 
-                                //string certs = driver.FindElement(By.Id("tbgrid1")).Text;
-
                                 int lastNameIndex = 2;
                                 int firstNameIndex = 3;
                                 //int certNameIndex = 5;
@@ -372,25 +356,22 @@ namespace Optim8_Staffing_Sheets
                                 foreach (IWebElement person in names)
                                 {
                                     System.Collections.ObjectModel.ReadOnlyCollection<IWebElement> personElements = person.FindElements(By.TagName("td"));
-                                    //if (personElements[certNameIndex].Text.Equals(areaCertNames[i]))
-                                    //{
                                     areaCerts[i].Add(personElements[lastNameIndex].Text + ", " + personElements[firstNameIndex].Text);
-                                    //}
                                 }
 
                             }
                             foreach (individualSchedule worker in people)
                             {
-                                if(worker.m_ride.Contains("Restroom"))
+                                if (worker.m_ride.Contains("Restroom"))
                                 {
                                     for (int i = 1; i <= 5; i++)
                                     {
-                                        if (areaCerts[i-1].Contains(worker.m_name) && (i <=4))
+                                        if (areaCerts[i - 1].Contains(worker.m_name) && (i <= 4))
                                         {
                                             worker.m_ride = "25" + i + "0 - PS Area " + i + " ";
                                             worker.m_name = "R - " + worker.m_name;
                                         }
-                                        else if (areaCerts[i - 1].Contains(worker.m_name) && i ==5)
+                                        else if (areaCerts[i - 1].Contains(worker.m_name) && i == 5)
                                         {
                                             worker.m_ride = "2670 - Harbor Services ";
                                             worker.m_name = "R - " + worker.m_name;
@@ -399,8 +380,86 @@ namespace Optim8_Staffing_Sheets
                                 }
                             }
                             //people.Sort((x, y) => x.m_ride.CompareTo(y.m_ride));
-                            
-                        }
+
+                        } // end restroom cert logic
+
+                        if (callinsBox.Checked)
+                        {
+                            //*************************************************
+                            //**Getting call ins**
+                            //*************************************************
+
+                            List<String> callinNames = new List<String>();
+
+                            string serviceLogUrl = "https://sixflags.team/tm/hr/point";
+
+                            driver.Navigate().GoToUrl(serviceLogUrl);
+
+                            if (!driver.Url.Equals(serviceLogUrl))
+                            {
+                                //not logged in
+                                //Console.WriteLine(driver.Url);
+                                //Console.ReadLine();
+                                driver.Navigate().GoToUrl(serviceLogUrl);
+
+                            }
+
+
+                            //txtDate12
+                            //txtDate11
+
+                            //Finds the date from box
+                            dateFrom = driver.FindElement(By.Id("txtDate11"));
+                            //clears it so its ready to recieve a new date typed in
+                            dateFrom.Clear();
+                            //Sends dateWanted to date from box
+                            dateFrom.SendKeys(dateWanted.ToShortDateString());
+                            //Same as date from but its date to
+                            dateTo = driver.FindElement(By.Id("txtDate12"));
+                            dateTo.Clear();
+                            dateTo.SendKeys(dateWanted.ToShortDateString());
+
+                            //IWebElement callinBox = driver.FindElement(By.Id("chkcallout"));
+                            //callinBox.Click();
+
+                            IWebElement goBtnCert = driver.FindElement(By.Id("divgo"));
+                            goBtnCert.Click();
+
+                            Thread.Sleep(2000);
+
+
+
+
+                            System.Collections.ObjectModel.ReadOnlyCollection<IWebElement> names = driver.FindElements(By.TagName("tr"));
+
+                            //string certs = driver.FindElement(By.Id("tbgrid1")).Text;
+
+                            int lastNameIndex = 2;
+                            int firstNameIndex = 3;
+                            int reasonIndex = 5;
+                            //int certNameIndex = 5;
+
+                            foreach (IWebElement person in names)
+                            {
+                                System.Collections.ObjectModel.ReadOnlyCollection<IWebElement> personElements = person.FindElements(By.TagName("td"));
+                                if (personElements[reasonIndex].Text.Contains("Absent"))
+                                {
+                                    callinNames.Add(personElements[lastNameIndex].Text + ", " + personElements[firstNameIndex].Text);
+                                }
+
+
+                            }
+
+
+                            foreach (individualSchedule worker in people)
+                            {
+                                if (callinNames.Contains(worker.m_name))
+                                {
+                                    worker.m_callin = true;
+                                }
+                            }
+
+                        } // end call in logic
 
                         List<String> rideSortOrderReversed = new List<String> {
                             "2590 - Waste/Trash Removal ",
@@ -424,11 +483,7 @@ namespace Optim8_Staffing_Sheets
 
                         var people4 = people.OrderBy(i => i.m_end).ToList();
                         var people2 = people4.OrderBy(i => i.m_start).ToList();
-                        //var people2 = people.OrderBy(i => i.m_ride.Contains("PS Area")).ThenBy(i => i.m_ride.Contains("Restroom")).ToList();
-                        //var people2 = people.OrderBy(i=> i.m_ride).ThenBy(i => i.m_ride.Contains("PS Area")).ThenBy(i => i.m_ride.Equals("")).ToList();
                         var people3 = people2.OrderByDescending(i => rideSortOrderReversed.IndexOf(i.m_ride)).ToList();
-                        
-                        //var people2 = people.OrderBy(o => o.m_ride).ToList<individualSchedule>();
 
                         people = people3;
 
@@ -447,7 +502,7 @@ namespace Optim8_Staffing_Sheets
                         //Creating the correct number of rides with ride names for everyone
                         for (int i = 2; i < people.Count(); i++)
                         {
-                            
+
                             //if the ride name of current person is different from the previous person
                             if (!people.ElementAt(i).m_ride.Equals(people.ElementAt(i - 1).m_ride))
                             {
@@ -459,7 +514,7 @@ namespace Optim8_Staffing_Sheets
                             //m_shift[0] is a null shift (not day, night, nor swing) for everyone scheduled at the ride
                             area.ElementAt(area.Count - 1).m_shift[0].m_crew.Add(people.ElementAt(i));
 
-                            
+
 
                         }
 
@@ -546,11 +601,11 @@ namespace Optim8_Staffing_Sheets
                                     }
                                 }
                                 count++;
-                            
+
                             }
                         }
 
-                        
+
 
                         //Counting list used in each ride
                         foreach (var ride in area)
@@ -661,7 +716,7 @@ namespace Optim8_Staffing_Sheets
 
                         //Opens up excel file
                         System.Diagnostics.Process proc = new System.Diagnostics.Process();
-                        proc.StartInfo.FileName = appDataFolder +fileName;
+                        proc.StartInfo.FileName = appDataFolder + fileName;
                         proc.StartInfo.UseShellExecute = true;
                         proc.Start();
 
@@ -683,7 +738,7 @@ namespace Optim8_Staffing_Sheets
                         driver.Quit();
                         driver = null;
                     }
-                    
+
                     if (ex.ToString().Contains("incorrect"))
                     {
                         lblError.Text = "Make sure your Username and Password are correct.";
@@ -694,13 +749,9 @@ namespace Optim8_Staffing_Sheets
                         MessageBox.Show("An Error has occured. Please try again.\n" + ex.ToString());
                     }
                 }
-            
-    }
+
+            }
             Cursor.Current = Cursors.Default;
-
-
-            //waiting.Close();
-            //plswait.Abort();
 
         }
 
@@ -723,7 +774,7 @@ namespace Optim8_Staffing_Sheets
             {
                 Excel.Workbook xlWorkBook;
                 Excel.Worksheet xlWorkSheet;
-                
+
                 //From what I understand misValue is used similar to null/default
                 object misValue = System.Reflection.Missing.Value;
 
@@ -737,7 +788,7 @@ namespace Optim8_Staffing_Sheets
                 xlWorkSheet.Cells[1, 5] = dateWanted.ToShortDateString();
 
                 //If previous date puts message saying the staffing sheet may not reflect the actual operators at the ride at that time
-                if (DateTime.Compare(dateWanted.Date, DateTime.Now.Date)<0)
+                if (DateTime.Compare(dateWanted.Date, DateTime.Now.Date) < 0)
                 {
                     xlWorkSheet.Cells[1, 3] = "*May not represent accurate staffing for previous days*";
                 }
@@ -753,72 +804,77 @@ namespace Optim8_Staffing_Sheets
                     xlWorkSheet.Cells[row, 3].Font.Underline = true;
                     xlWorkSheet.Cells[row, 3].HorizontalAlignment = 3;
 
-                    
+
 
                     //skips down 2 rows
-                    row +=2;
-                    int max_row=0;
-                    int start_row=row;
-                    for (int i =1; i<5;i++)
+                    row += 2;
+                    int max_row = 0;
+                    int start_row = row;
+                    for (int i = 1; i < 5; i++)
                     {
                         start_row = row;
-                        int col=0;
-                        if (ride.m_shift[i].m_shiftTime==shiftTime.Day)
-                            col=1;
+                        int col = 0;
+                        if (ride.m_shift[i].m_shiftTime == shiftTime.Day)
+                            col = 1;
                         else if (ride.m_shift[i].m_shiftTime == shiftTime.Swing)
                             col = 3;
                         else if (ride.m_shift[i].m_shiftTime == shiftTime.Night)
-                            col =5;
+                            col = 5;
 
                         foreach (var person in ride.m_shift[i].m_crew)
                         {
-                            
-                            xlWorkSheet.Cells[start_row, col] = person.m_start.ToShortTimeString() + "-" + person.m_end.ToShortTimeString() + "  " + person.m_name + (person.m_yellowTag?" (14-15)":"");
+
+                            xlWorkSheet.Cells[start_row, col] = person.m_start.ToShortTimeString() + "-" + person.m_end.ToShortTimeString() + "  " + person.m_name + (person.m_yellowTag ? " (14-15)" : "");
                             if (person.m_name.Contains("R - "))
                             {
                                 //xlWorkSheet.Range[start_row, col].get_Characters(0, 4).Font.Bold = true;
                                 xlWorkSheet.Cells[start_row, col].Font.Bold = true;
                             }
 
-                            if(person.m_yellowTag && highlight15.Checked)
+                            if (person.m_yellowTag && highlight15.Checked)
                             {
                                 xlWorkSheet.Cells[start_row, col].Interior.ColorIndex = 6; //yellow
+                            }
+
+                            if (person.m_callin)
+                            {
+                                xlWorkSheet.Cells[start_row, col].Font.Strikethrough = true;
                             }
 
 
                             string colC;
                             switch (col)
                             {
-                                case(1):
-                                    colC="a";
-                                        break;
-                                case(3):
-                                        colC = "c";
-                                        break;
-                                case(5):
-                                        colC = "e";
-                                        break;
+                                case (1):
+                                    colC = "a";
+                                    break;
+                                case (3):
+                                    colC = "c";
+                                    break;
+                                case (5):
+                                    colC = "e";
+                                    break;
                                 default:
-                                        colC = "a";
+                                    colC = "a";
                                     break;
                             }
-                            xlWorkSheet.get_Range(colC+start_row, colC+start_row).Borders[Excel.XlBordersIndex.xlEdgeBottom].Color = System.Drawing.Color.Black;
+                            xlWorkSheet.get_Range(colC + start_row, colC + start_row).Borders[Excel.XlBordersIndex.xlEdgeBottom].Color = System.Drawing.Color.Black;
                             start_row++;
                         }
                         if (start_row > max_row)
                             max_row = start_row;
 
                     }
-                    row=max_row+1;
+                    row = max_row + 1;
                 }
                 row++;
-                //xlWorkSheet.Cells[row, "e"] = "RIP Thomas Robert";
+
                 //Auto Sizes Cell Colums
                 xlWorkSheet.Columns.AutoFit();
 
                 //saves to program directory 
-                xlWorkBook.SaveAs(appDataFolder+filename,Excel.XlFileFormat.xlWorkbookNormal,misValue,misValue,misValue,misValue,Excel.XlSaveAsAccessMode.xlExclusive,misValue,misValue,misValue,misValue,misValue);
-                
+                xlWorkBook.SaveAs(appDataFolder + filename, Excel.XlFileFormat.xlWorkbookNormal, misValue, misValue, misValue, misValue, Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
+
                 //Closes file correctly
                 xlWorkBook.Close(true, misValue, misValue);
                 xlApp.Quit();
@@ -827,7 +883,7 @@ namespace Optim8_Staffing_Sheets
                 Marshal.ReleaseComObject(xlWorkBook);
                 Marshal.ReleaseComObject(xlApp);
 
- 
+
             }
             //return is void
             return;
@@ -847,7 +903,7 @@ namespace Optim8_Staffing_Sheets
             //if the browser is still connected
             if (driver != null)
             {
-                
+
                 //quits the driver
                 driver.Quit();
                 //sets driver to null
@@ -880,14 +936,14 @@ namespace Optim8_Staffing_Sheets
             var chromeVersion = chromeDriverInstaller.GetChromeVersion();
             MessageBox.Show($"Chrome version {chromeVersion.Result} detected");
             //Console.WriteLine($"Chrome version {chromeVersion} detected");
-            
+
             chromeDriverInstaller.Install(true);
             //MessageBox.Show("ChromeDriver installed");
         }
 
         private void btnAbout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Last Updated: 5/28/2023\n\nContact: Thomas Robert\nEmail: tRobert@sftp.com");
+            MessageBox.Show("Last Updated: 5/29/2023\n\nContact: Thomas Robert\nEmail: tRobert@sftp.com");
         }
     }
 }

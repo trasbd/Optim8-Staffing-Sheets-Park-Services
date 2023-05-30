@@ -71,19 +71,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChromeDriverInstaller.cs" />
-    <Compile Include="Ride Staffing Sheets.cs">
+    <Compile Include="Staffing Sheets.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ride Staffing Sheets.Designer.cs">
-      <DependentUpon>Ride Staffing Sheets.cs</DependentUpon>
+    <Compile Include="Staffing Sheets.Designer.cs">
+      <DependentUpon>Staffing Sheets.cs</DependentUpon>
     </Compile>
     <Compile Include="individualSchedule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ride.cs" />
     <Compile Include="shift.cs" />
-    <EmbeddedResource Include="Ride Staffing Sheets.resx">
-      <DependentUpon>Ride Staffing Sheets.cs</DependentUpon>
+    <EmbeddedResource Include="Staffing Sheets.resx">
+      <DependentUpon>Staffing Sheets.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
