@@ -369,12 +369,12 @@ namespace Optim8_Staffing_Sheets
                                         if (areaCerts[i - 1].Contains(worker.m_name) && (i <= 4))
                                         {
                                             worker.m_ride = "25" + i + "0 - PS Area " + i + " ";
-                                            worker.m_name = "R - " + worker.m_name;
+                                            worker.m_restroom = true;
                                         }
                                         else if (areaCerts[i - 1].Contains(worker.m_name) && i == 5)
                                         {
                                             worker.m_ride = "2670 - Harbor Services ";
-                                            worker.m_name = "R - " + worker.m_name;
+                                            worker.m_restroom = true;
                                         }
                                     }
                                 }
@@ -824,13 +824,15 @@ namespace Optim8_Staffing_Sheets
                         foreach (var person in ride.m_shift[i].m_crew)
                         {
 
-                            xlWorkSheet.Cells[start_row, col] = person.m_start.ToShortTimeString() + "-" + person.m_end.ToShortTimeString() + "  " + person.m_name + (person.m_yellowTag ? " (14-15)" : "");
-                            if (person.m_name.Contains("R - "))
+                            
+
+
+                            xlWorkSheet.Cells[start_row, col] = person.m_start.ToShortTimeString() + "-" + person.m_end.ToShortTimeString() + "  " + (person.m_restroom ? "R - " : "") + person.m_name + (person.m_yellowTag ? " (14-15)" : "");
+
+                            if (person.m_restroom)
                             {
-                                //xlWorkSheet.Range[start_row, col].get_Characters(0, 4).Font.Bold = true;
                                 xlWorkSheet.Cells[start_row, col].Font.Bold = true;
                             }
-
                             if (person.m_yellowTag && highlight15.Checked)
                             {
                                 xlWorkSheet.Cells[start_row, col].Interior.ColorIndex = 6; //yellow
