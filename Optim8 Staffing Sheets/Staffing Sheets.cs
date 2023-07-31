@@ -157,29 +157,27 @@ namespace Optim8_Staffing_Sheets
                     //Clicks Go to load new table
                     goBtn.Click();
 
-                    //Grabs new table
-                    String rawTable = scheduleTable.Text;
+                    Thread.Sleep(5000);
+                    String rawTable = "";
 
-                    int looped = 0;
-                    bool again = true;
+                    System.Collections.ObjectModel.ReadOnlyCollection<IWebElement> tableArray = driver.FindElements(By.TagName("tr"));
 
-                    while (again)
+                    foreach (IWebElement person in tableArray)
                     {
-                        //If new table is the same as old table it pulls in the table again
-                        if (rawTable.Equals(oldTable))
-                            again = true;
-                        else
-                            again = false;
-                        rawTable = scheduleTable.Text;
-                        looped++;
-                        if (!rawTable.Contains("Total Hours"))
-                            again = true;
-                        //if the old table is the same as the new table after pulling it 100 times
-                        //its probaly the table we want
-                        if (looped > 100)
-                            again = false;
+                        System.Collections.ObjectModel.ReadOnlyCollection<IWebElement> personElements = person.FindElements(By.TagName("td"));
+                        int i = 0;
+                        foreach (IWebElement col in personElements)
+                        {
 
+                            rawTable += "{" + i.ToString() + "}" + col.Text;
+                            i++;
+                        }
+                        rawTable += "\n";
+                        //areaCerts[i].Add(personElements[lastNameIndex].Text + ", " + personElements[firstNameIndex].Text);
                     }
+
+
+                    Thread.Sleep(1000);
 
                     // Gets Training ACs
                     if (getTraining)
@@ -213,7 +211,7 @@ namespace Optim8_Staffing_Sheets
                             Thread.Sleep(500);
 
                             //Grabs new table
-                            rawTable += scheduleTable.Text;
+                            //rawTable += scheduleTable.Text;
                         }
                     }
 
@@ -246,7 +244,7 @@ namespace Optim8_Staffing_Sheets
                     if ((line = file.ReadLine()) != null && line.Contains("No record found."))
                     {
                         //Displays message box
-                        MessageBox.Show("No schedules have been exsist on " + dateWanted.ToShortDateString());
+                        MessageBox.Show("No schedules exsist on " + dateWanted.ToShortDateString());
                         //Close file stream
                         file.Close();
                         //Deletes table file
