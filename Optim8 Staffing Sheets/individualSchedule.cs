@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,7 +22,7 @@ namespace Optim8_Staffing_Sheets
 
         public individualSchedule(string line)
         {
-            if (!line.Contains("Total Hours") && !line.Contains("Location Position Seq. Time"))
+            if (!line.Contains("Total Hours") && !line.Contains("Location Position Seq. Time") && isInt(line.Substring(0,1)))
             {
                 int index = 7;
                 int lenght = 0;
