@@ -15,7 +15,8 @@ public class ChromeDriverInstaller
     private static readonly HttpClient httpClient = new HttpClient
     {
         //BaseAddress = new Uri("https://chromedriver.storage.googleapis.com/")
-        BaseAddress = new Uri("https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/")
+        //BaseAddress = new Uri("https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/")
+        BaseAddress = new Uri("https://storage.googleapis.com/chrome-for-testing-public/")
     };
 
     public Task Install() => Install(null, false);
@@ -32,7 +33,7 @@ public class ChromeDriverInstaller
         }
 
         //   Take the Chrome version number, remove the last part, 
-        // chromeVersion = chromeVersion.Substring(0, chromeVersion.LastIndexOf('.'));
+         chromeVersion = chromeVersion.Substring(0, chromeVersion.LastIndexOf('.'));
 
         //   and append the result to URL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_". 
         //   For example, with Chrome version 72.0.3626.81, you'd get a URL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_72.0.3626".

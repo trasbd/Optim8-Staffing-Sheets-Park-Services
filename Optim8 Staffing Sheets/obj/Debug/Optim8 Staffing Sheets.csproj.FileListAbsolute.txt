@@ -165,3 +165,24 @@ C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\obj\Debug\Optim8
 C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CopyComplete
 C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
 C:\Users\thoma\Downloads\o8ss-ps\o8ss-ps\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe.config
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\WebDriver.dll
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.dll
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.AssemblyReference.cache
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.ResolveComReference.cache
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Form1.resources
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\obj\Debug\Optim8_Staffing_Sheets.Properties.Resources.resources
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.GenerateResource.cache
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.csproj.CoreCompileInputs.cache
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\obj\Debug\Optim8 S.AE224D49.Up2Date
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.exe
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\obj\Debug\Optim8 Staffing Sheets.pdb
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\Newtonsoft.Json.dll
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\Newtonsoft.Json.xml
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\WebDriver.xml
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Debug\WebDriver.Support.xml
