@@ -219,6 +219,7 @@ C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 S
 C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Release\Newtonsoft.Json.dll
 C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Release\WebDriver.dll
 C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Release\WebDriver.Support.dll
+C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Release\WebDriverManager.dll
 C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Release\Newtonsoft.Json.xml
 C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Release\WebDriver.xml
 C:\Users\thoma\Source\Repos\trasbd\Optim8-Staffing-Sheets-Park-Services\Optim8 Staffing Sheets\bin\Release\WebDriver.Support.xml

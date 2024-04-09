@@ -33,7 +33,7 @@ public class ChromeDriverInstaller
         }
 
         //   Take the Chrome version number, remove the last part, 
-         chromeVersion = chromeVersion.Substring(0, chromeVersion.LastIndexOf('.'));
+         //chromeVersion = chromeVersion.Substring(0, chromeVersion.LastIndexOf('.'));
 
         //   and append the result to URL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_". 
         //   For example, with Chrome version 72.0.3626.81, you'd get a URL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_72.0.3626".

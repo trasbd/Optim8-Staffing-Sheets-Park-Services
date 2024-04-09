@@ -9,6 +9,9 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
+using WebDriverManager.DriverConfigs.Impl;
+using WebDriverManager.Helpers;
+using WebDriverManager;
 using Excel = Microsoft.Office.Interop.Excel;
 
 namespace Optim8_Staffing_Sheets
@@ -57,6 +60,12 @@ namespace Optim8_Staffing_Sheets
 
                         ChromeDriverService service = ChromeDriverService.CreateDefaultService();
                         service.HideCommandPromptWindow = true;
+
+                        //var chromeDriverInstaller = new ChromeDriverInstaller();
+                        //var chromeVersion = chromeDriverInstaller.GetChromeVersion();
+                        //MessageBox.Show($"Chrome version {chromeVersion.Result} detected");
+
+                        //new DriverManager().SetUpDriver(new ChromeConfig(), chromeVersion.Result.Substring(0, chromeVersion.Result.LastIndexOf('.')));
                         driver = new ChromeDriver(service, options);
                         //makes form ontop of web browser
                         //this.TopMost = true;
